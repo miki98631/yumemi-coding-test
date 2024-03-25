@@ -7,8 +7,8 @@ test('TextInput Component Test', async () => {
   render(<TextInput />);
 
   const inputElement = screen.getByLabelText('Text Input');
-  expect(screen.getByText('Entered Text:')).toBeInTheDocument();
+  expect(screen.getByText('Entered Text:')).not.toBeNull();
 
   await user.type(inputElement, 'Hello World');
-  expect(screen.getByText('Entered Text: Hello World')).toBeInTheDocument();
+  expect(screen.getByText('Entered Text: Hello World')).not.toBeNull();
 });
