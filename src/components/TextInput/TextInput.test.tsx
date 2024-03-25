@@ -1,6 +1,6 @@
 import userEvent from '@testing-library/user-event';
 import { render, screen } from '@testing-library/react';
-import TextInput from './TextInput';
+import TextInput from './TextInput.tsx';
 
 test('TextInput Component Test', async () => {
   const user = userEvent.setup();
