@@ -48,6 +48,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "prettier": "^3.2.5",
+    "scss": "^0.2.4",
     "storybook": "^8.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
@@ -60,5 +61,7 @@
       "eslint --fix "
     ]
   },
-  "ignorePatterns": ["!.storybook"]
+  "ignorePatterns": [
+    "!.storybook"
+  ]
 }
